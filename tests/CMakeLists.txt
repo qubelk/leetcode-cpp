@@ -13,6 +13,7 @@ add_executable(
 	easy/two-sum/two_sum_tests.cpp
 	easy/palindrome-number/palindrome_number_tests.cpp
 	easy/roman-to-integer/roman_to_integer_tests.cpp
+	easy/concatenation-of-array/concatenation_of_array_test.cpp
 )
 
 target_include_directories(unit_tests PRIVATE ${CMAKE_SOURCE_DIR})
