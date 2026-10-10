@@ -14,7 +14,7 @@ add_executable(
 	easy/palindrome-number/palindrome_number_tests.cpp
 )
 
-target_include_directories(unit_tests PRIVATE ${CMAKE_SOURCE_DIR}/src)
+target_include_directories(unit_tests PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(unit_tests PRIVATE GTest::gtest_main)
 
 include(GoogleTest)
