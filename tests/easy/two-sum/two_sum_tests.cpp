@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "src/two-sum/two_sum.hpp"
+#include "src/easy/two-sum/two_sum.hpp"
 
 TEST(TwoSum, CorrectTargetFind) {
 	EXPECT_EQ(Solution::TwoSum({1, 2, 3, 4}, 6), std::vector<int>({1, 3}));
