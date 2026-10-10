@@ -8,10 +8,17 @@ public:
 		}
 
 		int orig = x;
+<<<<<<< HEAD
 		long long rev = 0;
 		while (x > 0) {
 			rev = rev * 10 + (x % 10);
 			x /= 10;
+=======
+		int rev = 0;
+		while (x > 0) {
+			rev = rev * 10 + (x % 10);
+			x = static_cast<int>(x / 10);
+>>>>>>> origin/main
 		}
 
 		return orig == rev;
