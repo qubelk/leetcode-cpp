@@ -6,10 +6,10 @@ Training algorithms by solving leetcode problems in C++
 
 ### Easy
 
-- Two Sum
+- `1.` Two Sum
 
-- Palindrome Number
+- `9.` Palindrome Number
 
-- Roman to Integer
+- `13.` Roman to Integer
 
 - `Q1.` Concatenation of Array.
