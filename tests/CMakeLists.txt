@@ -9,6 +9,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(unit_tests two-sum/two_sum_tests.cpp)
+target_include_directories(unit_tests PRIVATE ..)
 target_link_libraries(unit_tests PRIVATE GTest::gtest_main)
 
 include(GoogleTest)
