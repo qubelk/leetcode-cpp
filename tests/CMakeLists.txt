@@ -14,6 +14,7 @@ add_executable(
 	easy/palindrome-number/palindrome_number_tests.cpp
 	easy/roman-to-integer/roman_to_integer_tests.cpp
 	easy/concatenation-of-array/concatenation_of_array_test.cpp
+	easy/shuffle-array/shuffle_array_tests.cpp
 )
 
 target_include_directories(unit_tests PRIVATE ${CMAKE_SOURCE_DIR})
